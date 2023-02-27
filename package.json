@@ -1,0 +1,31 @@
+{
+  "name": "postcss-pxtorem-includes",
+  "description": "A CSS post-processor that converts px to rem.",
+  "version": "1.0.1",
+  "author": "cuth, QingwangLi",
+  "license": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:QingwangLI/postcss-pxtorem-includes.git"
+  },
+  "bugs": "https://github.com/QingwangLi/postcss-pxtorem-includes/issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node spec"
+  },
+  "devDependencies": {
+    "jasmine-node": "~1.11.0"
+  },
+  "keywords": [
+    "css",
+    "rem",
+    "pixel",
+    "px",
+    "postcss",
+    "postcss-plugin"
+  ],
+  "dependencies": {
+    "object-assign": "^4.1.0",
+    "postcss": "^5.2.10"
+  }
+}
