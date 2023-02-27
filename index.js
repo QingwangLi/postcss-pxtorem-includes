@@ -36,11 +36,10 @@ module.exports = postcss.plugin("postcss-pxtorem", function (options) {
 
     var satisfyPropList = createPropListMatcher(opts.propList);
 
-    return function (css, result) {
+    return function (css) {
         if (options.includes) {
             for (var i = 0; options.includes.length > i; i++) {
                 if (css.source.input.file.match(options.includes[i]) === null) {
-                    result.root = css;
                     return;
                 }
             }
